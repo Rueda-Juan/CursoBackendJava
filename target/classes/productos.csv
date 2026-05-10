@@ -1,0 +1,31 @@
+tipo,nombre,precio,descripcion,marca,stock,stockMin,extra1,extra2
+2,Coca Cola 1.5L,2500.0,Gaseosa original,Coca-Cola,5,10,1500,false
+2,Pepsi 1.5L,2300.0,Gaseosa cola,PepsiCo,80,10,1500,false
+2,Cerveza Quilmes,1800.0,Cerveza clasica,Quilmes,2,20,1000,true
+2,Agua Villavicencio,1200.0,Agua mineral,Danone,150,15,500,false
+2,Jugo Cepita Naranja,1600.0,Jugo de fruta,Coca-Cola,3,5,1000,false
+3,Remera Algodon L,15000.0,Remera lisa,Legacy,50,5,L,Azul
+3,Remera Algodon M,15000.0,Remera lisa,Legacy,2,5,M,Rojo
+3,Pantalon Jean,45000.0,Jean clasico,Levis,1,3,42,Azul
+3,Zapatillas Running,85000.0,Zapatillas deportivas,Nike,20,2,42,Negro
+3,Buzo Hoodie,35000.0,Buzo con capucha,Adidas,1,3,XL,Gris
+4,Leche Proxima Vencer,1200.0,Leche sachet,La Serenisima,100,10,2026-05-10,
+4,Yogur Frutilla,1500.0,Yogur bebible,Sancor,50,10,2026-06-20,
+4,Queso Cremon,8500.0,Queso cremoso,La Serenisima,1,2,2026-05-09,
+4,Manteca 200g,2200.0,Manteca de primera,Sancor,40,5,2026-08-10,
+4,Pan Lactal,3500.0,Pan de molde,Bimbo,2,5,2026-05-11,
+1,Arroz Largo Fino,1800.0,Arroz 1kg,Lucchetti,120,20,,
+1,Fideos Tallarin,1500.0,Fideos de trigo,Matarazzo,5,20,,
+1,Aceite Girasol,4500.0,Aceite 900ml,Natura,60,10,,
+1,Harina 000,1100.0,Harina de trigo,Favorita,10,30,,
+1,Azucar Blanca,1300.0,Azucar refinada,Ledesma,180,30,,
+1,Sal Fina,800.0,Sal de mesa,Celusal,90,10,,
+1,Cafe Molido,9500.0,Cafe tostado,Bonafide,2,5,,
+1,Yerba Mate 1kg,4800.0,Yerba con palo,Playadito,150,20,,
+1,Te en saquitos,2200.0,Te negro,Taragui,100,10,,
+1,Galletitas Dulces,1800.0,Galletitas surtidas,Terrabusi,70,10,,
+1,Pure de Tomate,1100.0,Tomate tamizado,Arcor,8,15,,
+1,Lentejas 500g,2500.0,Legumbres secas,Cumanana,1,5,,
+1,Polenta,1300.0,Harina de maiz,Presto Pronta,80,10,,
+1,Mermelada Durazno,3200.0,Dulce de fruta,BC,2,5,,
+1,Dulce de Leche,4500.0,Clasico argentino,La Serenisima,45,5,,
