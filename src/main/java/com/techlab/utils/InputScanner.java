@@ -1,12 +1,9 @@
-package com.techlab;
-
+package com.techlab.utils;
 import com.techlab.excepciones.FormatoInvalidoException;
 import com.techlab.excepciones.ScannerException;
 import java.util.Scanner;
-
 public class InputScanner {
     private static final Scanner scanner = new Scanner(System.in);
-
     public static String readString(String prompt) {
         System.out.print(prompt);
         String input = scanner.nextLine();
@@ -15,7 +12,6 @@ public class InputScanner {
         }
         return input;
     }
-
     public static int readInt(String prompt) {
         System.out.print(prompt);
         try {
@@ -24,7 +20,6 @@ public class InputScanner {
             throw new FormatoInvalidoException("El valor ingresado no es un número entero válido.");
         }
     }
-
     public static double readDouble(String prompt) {
         System.out.print(prompt);
         try {
@@ -33,7 +28,6 @@ public class InputScanner {
             throw new FormatoInvalidoException("El valor ingresado no es un número decimal válido.");
         }
     }
-
     public static boolean readBoolean(String prompt) {
         System.out.print(prompt + " (s/n): ");
         String input = scanner.nextLine().trim().toLowerCase();
@@ -41,7 +35,6 @@ public class InputScanner {
         if (input.equals("n")) return false;
         throw new FormatoInvalidoException("Debe ingresar 's' o 'n'.");
     }
-
     public static long readLong(String prompt) {
         System.out.print(prompt);
         try {
@@ -51,3 +44,4 @@ public class InputScanner {
         }
     }
 }
+

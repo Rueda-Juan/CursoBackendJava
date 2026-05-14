@@ -1,5 +1,4 @@
-package com.techlab;
-
+package com.techlab.utils;
 public class CONST {
     public static String RESET = "\u001B[0m";
     public static String BOLD = "\u001B[1m";
@@ -73,3 +72,4 @@ public class CONST {
     public static String CYAN_HIDDEN = "\u001B[8;36m";
     public static String WHITE_HIDDEN = "\u001B[8;37m";
 }
+

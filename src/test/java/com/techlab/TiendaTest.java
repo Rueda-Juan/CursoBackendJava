@@ -1,6 +1,8 @@
 package com.techlab;
 
-import com.techlab.productos.Producto;
+import com.techlab.productos.*;
+import com.techlab.tienda.Tienda;
+import com.techlab.usuario.Usuario;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;

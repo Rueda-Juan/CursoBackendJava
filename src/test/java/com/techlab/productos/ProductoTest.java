@@ -24,7 +24,7 @@ public class ProductoTest {
     @Test
     void testProductoPerecederoExpiration() {
         LocalDate tomorrow = LocalDate.now().plusDays(1);
-        PoductoPerecedero p = new PoductoPerecedero(1, "Leche", 20.0, "Lacteo", "Sancor", tomorrow);
+        ProductoPerecedero p = new ProductoPerecedero(1, "Leche", 20.0, "Lacteo", "Sancor", tomorrow);
         assertEquals(tomorrow, p.getFechaCaducidad());
     }
 

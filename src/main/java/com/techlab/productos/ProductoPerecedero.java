@@ -1,27 +1,20 @@
 package com.techlab.productos;
-
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
-
-import com.techlab.CONST;
-
-public class PoductoPerecedero extends Producto {
+import com.techlab.utils.CONST;
+public class ProductoPerecedero extends Producto {
     private LocalDate fechaCaducidad;
-
-    public PoductoPerecedero(int id, String nombre, double precio, String descripcion, String marca,
+    public ProductoPerecedero(int id, String nombre, double precio, String descripcion, String marca,
             LocalDate fechaCaducidad) {
         super(id, nombre, precio, descripcion, marca);
         this.fechaCaducidad = fechaCaducidad;
     }
-
     public LocalDate getFechaCaducidad() {
         return this.fechaCaducidad;
     }
-
     public void setFechaCaducidad(LocalDate fechaCaducidad) {
         this.fechaCaducidad = fechaCaducidad;
     }
-
     @Override
     public String toString() {
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd/MM/yyyy");
@@ -33,3 +26,4 @@ public class PoductoPerecedero extends Producto {
                 colorFecha, fechaStr, CONST.RESET);
     }
 }
+
